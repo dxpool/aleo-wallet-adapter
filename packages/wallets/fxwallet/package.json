@@ -1,0 +1,29 @@
+{
+  "name": "@fxwallet/aleo-wallet-adapter-fxwallet",
+  "version": "0.0.1",
+  "description": "Aleo wallet adapter for the FxWallet Wallet.",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/dxpool/aleo-wallet-adapter",
+  "author": "DxPool",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@demox-labs/aleo-wallet-adapter-base": "^0.0.23",
+    "nanoid": "^4.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "doc": "typedoc --plugin typedoc-plugin-markdown index.ts",
+    "bundle": "webpack"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.4.1",
+    "typedoc": "^0.28.4",
+    "typedoc-plugin-markdown": "^4.6.3",
+    "typescript": "^5.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}
